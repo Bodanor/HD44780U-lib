@@ -1,0 +1,3 @@
+[submodule "atmega328p-lib"]
+	path = atmega328p-lib
+	url = git@github.com:bodanor/atmega328p-lib
