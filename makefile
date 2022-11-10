@@ -1,10 +1,10 @@
 CC = avr-gcc
-CFLAGS = -Os -Wall -Wextra -fno-exceptions -pipe -mmcu=atmega328p -DF_CPU=16000000UL -DDEBUG
+CFLAGS = -Os -Wall -Wextra -fno-exceptions -pipe -mmcu=atmega328p -DF_CPU=16000000UL --param=min-pagesize=0
 
-C_SOURCES := $(wildcard *.c src/*.c)
+C_SOURCES := $(wildcard *.c atmega328p-lib/src/*.c)
 C_HEADERS := include/$(wildcard *.h)
 C_OBJECTS := $(C_SOURCES:%c=%o)
-HEADERS_PATH = include/
+HEADERS_PATH = atmega328p-lib/include/
 
 OUTPUT_FILE = output
 
@@ -33,4 +33,4 @@ clean:
 	rm -rf *.o
 	rm -rf $(OUTPUT_FILE).hex
 	rm -rf $(OUTPUT_FILE)
-	rm -rf src/*.o
+	rm -rf atmega328p-lib/src/*.o
