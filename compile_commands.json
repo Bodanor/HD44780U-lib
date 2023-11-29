@@ -1,0 +1,134 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/avr-gcc",
+      "-Os",
+      "-Wall",
+      "-Wextra",
+      "-fno-exceptions",
+      "-pipe",
+      "-mmcu=atmega328p",
+      "-DF_CPU=16000000UL",
+      "--param=min-pagesize=0",
+      "-c",
+      "-I",
+      "atmega328p-lib/include/",
+      "-o",
+      "HD44780U.o",
+      "HD44780U.c"
+    ],
+    "directory": "/home/liwinux/Desktop/hd44780u-lib",
+    "file": "/home/liwinux/Desktop/hd44780u-lib/HD44780U.c",
+    "output": "/home/liwinux/Desktop/hd44780u-lib/HD44780U.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/avr-gcc",
+      "-Os",
+      "-Wall",
+      "-Wextra",
+      "-fno-exceptions",
+      "-pipe",
+      "-mmcu=atmega328p",
+      "-DF_CPU=16000000UL",
+      "--param=min-pagesize=0",
+      "-c",
+      "-I",
+      "atmega328p-lib/include/",
+      "-o",
+      "main.o",
+      "main.c"
+    ],
+    "directory": "/home/liwinux/Desktop/hd44780u-lib",
+    "file": "/home/liwinux/Desktop/hd44780u-lib/main.c",
+    "output": "/home/liwinux/Desktop/hd44780u-lib/main.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/avr-gcc",
+      "-Os",
+      "-Wall",
+      "-Wextra",
+      "-fno-exceptions",
+      "-pipe",
+      "-mmcu=atmega328p",
+      "-DF_CPU=16000000UL",
+      "--param=min-pagesize=0",
+      "-c",
+      "-I",
+      "atmega328p-lib/include/",
+      "-o",
+      "atmega328p-lib/src/i2c.o",
+      "atmega328p-lib/src/i2c.c"
+    ],
+    "directory": "/home/liwinux/Desktop/hd44780u-lib",
+    "file": "/home/liwinux/Desktop/hd44780u-lib/atmega328p-lib/src/i2c.c",
+    "output": "/home/liwinux/Desktop/hd44780u-lib/atmega328p-lib/src/i2c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/avr-gcc",
+      "-Os",
+      "-Wall",
+      "-Wextra",
+      "-fno-exceptions",
+      "-pipe",
+      "-mmcu=atmega328p",
+      "-DF_CPU=16000000UL",
+      "--param=min-pagesize=0",
+      "-c",
+      "-I",
+      "atmega328p-lib/include/",
+      "-o",
+      "atmega328p-lib/src/uart.o",
+      "atmega328p-lib/src/uart.c"
+    ],
+    "directory": "/home/liwinux/Desktop/hd44780u-lib",
+    "file": "/home/liwinux/Desktop/hd44780u-lib/atmega328p-lib/src/uart.c",
+    "output": "/home/liwinux/Desktop/hd44780u-lib/atmega328p-lib/src/uart.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/avr-gcc",
+      "-Os",
+      "-Wall",
+      "-Wextra",
+      "-fno-exceptions",
+      "-pipe",
+      "-mmcu=atmega328p",
+      "-DF_CPU=16000000UL",
+      "--param=min-pagesize=0",
+      "-c",
+      "-I",
+      "atmega328p-lib/include/",
+      "-o",
+      "atmega328p-lib/src/util_pin.o",
+      "atmega328p-lib/src/util_pin.c"
+    ],
+    "directory": "/home/liwinux/Desktop/hd44780u-lib",
+    "file": "/home/liwinux/Desktop/hd44780u-lib/atmega328p-lib/src/util_pin.c",
+    "output": "/home/liwinux/Desktop/hd44780u-lib/atmega328p-lib/src/util_pin.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/avr-gcc",
+      "-Os",
+      "-Wall",
+      "-Wextra",
+      "-fno-exceptions",
+      "-pipe",
+      "-mmcu=atmega328p",
+      "-DF_CPU=16000000UL",
+      "--param=min-pagesize=0",
+      "-c",
+      "-I",
+      "atmega328p-lib/include/",
+      "-o",
+      "atmega328p-lib/src/utils.o",
+      "atmega328p-lib/src/utils.c"
+    ],
+    "directory": "/home/liwinux/Desktop/hd44780u-lib",
+    "file": "/home/liwinux/Desktop/hd44780u-lib/atmega328p-lib/src/utils.c",
+    "output": "/home/liwinux/Desktop/hd44780u-lib/atmega328p-lib/src/utils.o"
+  }
+]
